@@ -8,7 +8,6 @@ Rita Mwaura
 
 ## Screenshot
 
-![](screenshot1.png)
 
 ## Tecnologies
 

@@ -9,7 +9,7 @@ Rita Mwaura
 ## Screenshot
 
 
-## Tecnologies
+## Technologies
 
 Angular
 

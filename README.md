@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Author
 
-Frankline Mulama
+Rita Mwaura
 
 ## Screenshot
 
@@ -38,7 +38,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 MIT License
 
-Copyright (c) 2019 Frankline Baraka Mulama
+Copyright (c) 2019 Rita Mwaura
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

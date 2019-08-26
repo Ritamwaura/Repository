@@ -10,7 +10,7 @@ Rita Mwaura
 
 Angular
 ## live link
-https://github.com/Ritamwaura/Repository.git
+https://ritamwaura.github.io/
 
 ## Language
 

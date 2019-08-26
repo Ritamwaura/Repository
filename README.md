@@ -6,9 +6,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Rita Mwaura
 
-## Screenshot
-file:///home/rita/Pictures/Screenshot%20from%202019-08-26%2011-39-05.png
-
 ## Technologies
 
 Angular

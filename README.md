@@ -9,6 +9,8 @@ Rita Mwaura
 ## Technologies
 
 Angular
+## live link
+https://github.com/Ritamwaura/Repository.git
 
 ## Language
 

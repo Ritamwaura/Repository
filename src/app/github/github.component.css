@@ -1,0 +1,52 @@
+*{
+    margin: 0;   
+    
+ 
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+
+
+h3{
+    font-size: 17px;
+    
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+.row{
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+img{
+    height: 20vh;
+
+}
+
+
+.card-body{
+    background-color: white;
+ 
+}
+
+#repos p{
+    font-size: 13px;
+}
+
+#repos .card{
+    width: 50vh;
+    text-align: left;
+}
+
+#users .card{
+    width: 50vh;
+}

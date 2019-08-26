@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "repository": {
+    "GitHub": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/repository",
+            "outputPath": "dist/GitHub",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "repository:build"
+            "browserTarget": "GitHub:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "repository:build:production"
+              "browserTarget": "GitHub:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "repository:build"
+            "browserTarget": "GitHub:build"
           }
         },
         "test": {
@@ -89,9 +89,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap.dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.slim.min.js",
+              "node_modules/bootstrap.dist/js/bootstrap.bundle.min.js"
+            ]
           }
         },
         "lint": {
@@ -111,15 +115,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "repository:serve"
+            "devServerTarget": "GitHub:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "repository:serve:production"
+              "devServerTarget": "GitHub:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "repository"
+  "defaultProject": "GitHub"
 }

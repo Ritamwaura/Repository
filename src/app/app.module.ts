@@ -37,4 +37,5 @@ import { HighlightDirective } from './highlight.directive';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { } 
+
